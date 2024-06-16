@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93c2961191a5ac42a9b6f734e02b76e, type: 3}
+  m_Name: PoisonPotion
+  m_EditorClassIdentifier: 
+  prefabName: PoisonPotion_
+  numberOfPrefabsToCreate: 4
+  spawnPoints:
+  - {x: 10.55, y: 8.53, z: 0}
+  - {x: 0.4, y: -5.77, z: 0}
+  - {x: 11.57, y: -3.04, z: 0}
+  - {x: 7.79, y: 7.11, z: 0}
+  potionTint: {r: 0.4127667, g: 0.5372549, b: 0.4, a: 1}
+  potionText: 'Poison '
+  damage: 50
+  heal: 0
